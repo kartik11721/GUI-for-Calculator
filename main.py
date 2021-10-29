@@ -37,11 +37,11 @@ def cls():
 def back():
     global expression
     try:
-        expression = expression.rstrip(expression[-1])
-    except:
-        pass
+        expression = expression[:-1]
+    except Exception as err:
+        print(err)
     e.delete(0, "end")
-    e.insert(0, expression)
+    e.insert(0, expression))
 
 
 button_1byx = Button(root, text='²√x', height=2, width=4,
