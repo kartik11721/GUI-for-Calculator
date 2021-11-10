@@ -87,6 +87,7 @@ button_equal = Button(root, text='=', height=2, width=4,
 button_add = Button(root, text='+', height=2, width=4,
                     bd=3, command=lambda: click('+'))
 
+# Button Positioning
 button_1byx.grid(row=1, column=0)
 button_x2.grid(row=1, column=1)
 button_clear.grid(row=1, column=2)
