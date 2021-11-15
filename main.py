@@ -8,7 +8,7 @@ e = Entry(root, borderwidth=6, width=26)
 e.grid(row=0, column=0, ipady=5, columnspan=4)
 expression = ''
 
-
+# functions
 def click(x):
     global expression
     e.delete(0, "end")
